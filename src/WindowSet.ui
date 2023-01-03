@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WindowSetClass</class>
+ <widget class="QWidget" name="WindowSetClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Set</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Resource.qrc">
+    <normaloff>:/logo.ico</normaloff>:/logo.ico</iconset>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTreeWidget" name="treeWidget">
+     <attribute name="headerVisible">
+      <bool>false</bool>
+     </attribute>
+     <column>
+      <property name="text">
+       <string>1</string>
+      </property>
+     </column>
+     <item>
+      <property name="text">
+       <string>密度设置(kg/m3)</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>铁</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>铜</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>除税单价设置(元/kg)</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>镀锌薄钢板</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>镀锌钢板</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>铜板</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>角钢</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>槽钢</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>镀锌圆钢</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>镀锌扁钢</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>镀锌钢管</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>无缝钢管</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>不锈钢管</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>焊接钢管</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>铝合金</string>
+       </property>
+      </item>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>16777215</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>保存设置</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="Resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
